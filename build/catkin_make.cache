@@ -1,0 +1,2 @@
+zed_capture
+-DCATKIN_DEVEL_PREFIX=/home/xj/zed_ws/devel -DCMAKE_INSTALL_PREFIX=/home/xj/zed_ws/install -G Unix Makefiles

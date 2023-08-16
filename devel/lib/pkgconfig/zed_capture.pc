@@ -1,0 +1,8 @@
+prefix=/home/xj/zed_ws/devel
+
+Name: zed_capture
+Description: Description of zed_capture
+Version: 0.0.0
+Cflags: -I/home/xj/zed_ws/devel/include -I/home/xj/zed_ws/src/zed_capture/include -I/usr/local/zed/include
+Libs: -L${prefix}/lib -lzed_capture /usr/local/zed/lib/libsl_zed.so /usr/lib/x86_64-linux-gnu/libopenblas.so /usr/lib/x86_64-linux-gnu/libusb-1.0.so /usr/lib/x86_64-linux-gnu/libnvidia-encode.so
+Requires: roscpp rospy std_msgs
